@@ -117,6 +117,7 @@ section {
     bottom: 0;
     right: 0;
     margin: 5%;
+    cursor: pointer;
 }
 
 .projects a:hover button {
