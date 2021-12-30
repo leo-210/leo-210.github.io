@@ -8,8 +8,18 @@
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="styles/main.css">
     <title>Léo-21</title>
+    <script>
+        function changeTheme() {
+            console.log("ok")
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
   </head>
-  <body>
+  <body class="dark-mode">
+    <button type="button" class="dark-mode-toggle" onclick="changeTheme()">
+      <img src="img/night-mode.png" alt="Dark mode" class="dark-mode-icon">
+      <span>Darkmode</span>
+    </button>
     <div class="container">
       <section class="about">
         <ul>
