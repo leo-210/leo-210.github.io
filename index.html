@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -14,18 +14,15 @@
     <link rel="stylesheet" href="styles/main.css">
 
     <title>Léo-21</title>
-    <script>
-        function changeTheme() {
-            console.log("ok")
-            document.body.classList.toggle("dark-mode");
-        }
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
   </head>
   <body class="dark-mode">
     <button type="button" class="dark-mode-toggle" onclick="changeTheme()">
       <img src="img/night-mode.png" alt="Dark mode" class="dark-mode-icon">
-      <span>Darkmode</span>
+      <span>Night mode</span>
     </button>
+    <button type="button" class="lang-switch" onclick="onLangSwitchClick()">🇬🇧</button>
     <div class="container">
       <section class="about">
         <ul>
@@ -36,32 +33,42 @@
             <h1 class="title">Léo-21</h1>
           </li>
         </ul>
-        <p>
+        <p lang="en">
+          My name is Léo (with the nickname Léo-21) and I and a 15 years
+          old developer, passionate about computer science and mathematics.
+        </p>
+        <p lang="fr">
           Je m'appelle Léo (avec comme pseudo Léo-21) et je suis un
           développeur de 15 ans passionné par l'informatique et les maths.
         </p>
         <div>
           <ul>
-            <li><a href="https://discord.com/users/526529532677586954"><img src="img/discord-icon.png" alt="Lien discord"></a></li>
-            <li><a href="https://github.com/leo-210"><img src="img/icon-github.png" alt="Lien github"></a></li>
-            <li><a href="mailto:leo@leo21.fr"><img src="img/email-icon.png" alt="Mail"></a></li>
+            <li><a href="https://discord.com/users/526529532677586954"><img src="img/discord-icon.png" alt="Discord link"></a></li>
+            <li><a href="https://github.com/leo-210"><img src="img/icon-github.png" alt="GitHub Link"></a></li>
+            <li><a href="mailto:leo@leo21.fr"><img src="img/email-icon.png" alt="email"></a></li>
           </ul>
         </div>
       </section>
       <section id="projects">
-        <h2>Projets</h2>
+        <h2 lang="fr">Projets</h2>
+        <h2 lang="en">Projects</h2>
         <hr>
         <div class="projects">
           <a href="https://discord.gg/tGBKNnnnbN">
             <figure>
-              <img src="img/cmfr-logo.png" alt="Logo CMFR Bot">
+              <img src="img/cmfr-logo.png" alt="Logo CMFr Bot">
               <figcaption>
                 <h3>CMFrBot</h3>
-                <p>
+                <p lang="en">
+                  CMFrBot is a bot for the french Discord server
+                  Communauté Minecraft Fr.
+                </p>
+                <p lang="fr">
                   CMFrBot est un bot pour le serveur discord
                   Communauté Minecraft Fr.
                 </p>
-                <button>Rejoindre le serveur</button>
+                <button lang="en">Join the server</button>
+                <button lang="fr">Rejoindre le serveur</button>
               </figcaption>
             </figure>
           </a>
@@ -71,11 +78,16 @@
               <img src="img/calculator-logo.png" alt="Logo Calculator">
               <figcaption>
                 <h3>Calculator</h3>
-                <p>
+                <p lang="en">
+                  Calculator is a Discord bot that allows you to have a calculator
+                  in Discord !
+                </p>
+                <p lang="fr">
                   Calculator est un bot Discord qui vous permet d'avoir une calculatrice
                   dans Discord !
                 </p>
-                <button>Inviter le bot</button>
+                <button lang="en">Invite the bot</button>
+                <button lang="fr">Inviter le bot</button>
               </figcaption>
             </figure>
           </a>

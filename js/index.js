@@ -7,8 +7,10 @@ function changeTheme() {
 }
 
 function switchLanguage(language) {
-  $("[lang]").hide()
-  $(`[lang=${language}]`).show()
+  $("body [lang]").hide()
+  $(`body [lang=${language}]`).show()
+
+  document.documentElement.setAttribute("lang", language);
 }
 
 function onLangSwitchClick() {

@@ -24,18 +24,10 @@ body {
 }
 
 .dark-mode-toggle {
-    background: #354497;
-    border-radius: 20px;
-    cursor: pointer;
-    color: #F5F5F5;
     font-size: 0.80rem;
     padding: 2px 16px;
-    border-width: 0;
     margin: 10px;
-    position: absolute;
-    top: 0;
     left: 0;
-    text-align: center;
     display: flex;
 }
 
@@ -43,13 +35,24 @@ body {
     color: #CECECE;
 }
 
-.dark-mode-toggle:hover {
+.dark-mode-toggle:hover, .lang-switch:hover {
     background-color:#3f51b5;
     color: #FFFFFF;
 }
 
-.dark-mode-toggle:active {
+.dark-mode-toggle:active, .lang-switch:active {
     top: 1px;
+}
+
+.dark-mode-toggle, .lang-switch {
+    background: #354497;
+    top: 0;
+    position: absolute;
+    text-align: center;
+    border-width: 0;
+    cursor: pointer;
+    color: #F5F5F5;
+    border-radius: 20px;
 }
 
 .dark-mode-toggle span {
@@ -60,6 +63,14 @@ body {
 .dark-mode-icon {
     width: 30px;
     margin-right: 5px;
+}
+
+.lang-switch {
+    font-size: 1rem;
+    padding: 8px 16px;
+    margin: 10px;
+    top: 0;
+    right: 0;
 }
 
 button:focus {
