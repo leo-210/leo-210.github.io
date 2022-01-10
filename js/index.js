@@ -9,7 +9,7 @@ function changeTheme() {
 function switchLanguage(language) {
   $("body [lang]").hide()
   $(`body [lang=${language}]`).show()
-
+  Cookies.set("lang", language, { expires: 7 })
   document.documentElement.setAttribute("lang", language);
 }
 
@@ -24,5 +24,13 @@ function onLangSwitchClick() {
 }
 
 $(document).ready(function () {
-  switchLanguage("en")
+  const lang = Cookies.get("lang")
+  if (lang && allLanguages.includes(lang)) {
+    switchLanguage(lang)
+    currentLanguage = lang
+    $(".lang-switch").text(flags[allLanguages.indexOf(currentLanguage)])
+  } else {
+    switchLanguage("en")
+    Cookies.set("lang", "en", { expires: 7 })
+  }
 })
