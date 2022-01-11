@@ -4,6 +4,13 @@ let currentLanguage = "en"
 
 function changeTheme() {
   document.body.classList.toggle("dark-mode");
+  Cookies.set(
+    "darkmode",
+    document.body.classList.contains("dark-mode").toString(),
+    {
+      expires: 7
+    }
+  )
 }
 
 function switchLanguage(language) {
@@ -32,5 +39,11 @@ $(document).ready(function () {
   } else {
     switchLanguage("en")
     Cookies.set("lang", "en", { expires: 7 })
+  }
+
+  if (Cookies.get("darkmode") !== "false") {
+    document.body.classList.add("dark-mode")
+  } else {
+    document.body.classList.remove("dark-mode")
   }
 })
