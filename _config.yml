@@ -8,3 +8,8 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: blue
+title: Avancement TIPE
+description: Un site pour suivre mes avancées sur le TIPE 2024-25.
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
