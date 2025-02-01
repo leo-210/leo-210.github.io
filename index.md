@@ -23,7 +23,7 @@ mes échec, afin de garder une trace datée de tout ça.
 
 Vous pouvez trouver la liste de tous les posts ci-dessous.
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts %}
 
 * * *
 
