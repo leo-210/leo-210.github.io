@@ -14,6 +14,9 @@ title: Avancement TIPE
 show_dir_listing: false
 description: Un site pour suivre mes avancées sur le TIPE 2025-26.
 lang: fr_FR
+exclude: 
+- gemset.nix
+- shell.nix
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
