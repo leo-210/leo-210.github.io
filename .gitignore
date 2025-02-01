@@ -1,0 +1,12 @@
+# Ruby stuff
+.bundle/
+Gemfile*
+vendor/
+
+# Nix & Ruby stuff
+gemset.nix
+shell.nix
+
+# Jekyll stuff
+_site/
+
