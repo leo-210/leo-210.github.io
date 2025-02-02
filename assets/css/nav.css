@@ -73,3 +73,10 @@
         margin-bottom: -20px;
     }
 }
+
+@media screen and (max-width: 68em) {
+    .main-content {
+        width: auto;
+        max-width: 64rem;
+    }
+}
