@@ -20,6 +20,10 @@
     }
 }
 
+hr {
+    border-top: solid 1px #eff0f1;
+}
+
 .topnav {
     display: none;
 }
