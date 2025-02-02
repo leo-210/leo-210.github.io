@@ -21,7 +21,7 @@ Les 3 idées viennent dans l'ordre du moins bon au meilleur (classement qui ne
 tient uniquement à moi).
 
 
-## Stocker précisément des nombres réel dans la mémoire
+## 1. Stocker précisément des nombres réel dans la mémoire
 
 J'ai pas vraiment de lien avec le thème, mais je le trouve stylé. Il y a
 plusieurs approches, dont :
@@ -31,7 +31,7 @@ plusieurs approches, dont :
   une meilleure approximation du nombre (c'est stylé non ?)
 
 
-## Un programme permettant de trouver l'équation différentielle d'un circuit composé de dipôles
+## 2. Un programme permettant de trouver l'équation différentielle d'un circuit composé de dipôles
 
 Un peu plus dans le thème : un circuit c'est bien une boucle après tout.
 
@@ -46,7 +46,7 @@ problématique. J'ai juste une vague idée d'algorithme et l'idée de l'impléme
 me semble intéressante au moins.
 
 
-## Un simulateur des mouvements d'astres avec une réflexion sur la précision
+## 3. Un simulateur des mouvements d'astres avec une réflexion sur la précision
 
 Le meilleur pour la fin, le sujet sur lequel je suis le plus enclin à partir
 pour l'instant. En plus le thème c'est pas trop mal : les astres ont
@@ -78,7 +78,7 @@ planètes bouger (c'est bien plus rigolo comme ça). Dans ce cas le programme
 serait probablement en C, pour utiliser des librairies telles que OpenGL 3.
 
 
-## Conclusion
+# Conclusion
 
 Finalement, en intro j'ai menti, je suis tout de même entré un peu dans les
 détails, mais c'est mon blog donc je fais ce que je veux, et toc !
