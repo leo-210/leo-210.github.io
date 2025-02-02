@@ -28,14 +28,38 @@
     <div id="wrapper">
     <div class="place-holder"></div>
     <nav class="sidenav">
-        <a href="/">← Retour à l'accueil</a>
+        <a class="return-home" href="/">← Retour à l'accueil</a>
 
         <h2>Contenu</h2>
         {{ content | toc_only }}
     </nav>
 
+    
+
     <main id="content" class="main-content" role="main">
+      <nav class="topnav return-home">
+          <a href="/">← Retour à l'accueil</a>
+      </nav>  
       {{ content | inject_anchors }}
+      
+      <div id="nav-wrapper">
+        <nav class="return-home">
+          <a href="/">← Retour à l'accueil</a>
+        </nav>
+
+        {% if page.previous.url %}
+        <nav class="previous-page">
+            <a href="{{ page.previous.url }}">← Précédent</a>
+        </nav>
+        {% endif %}
+
+        {% if page.next.url %}
+        <nav class="next-page">
+            <a href="{{ page.next.url }}">Suivant →</a>
+        </nav>
+        {% endif %}
+
+      </div>
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}

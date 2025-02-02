@@ -12,8 +12,6 @@
     width: 20em;
     min-width: 15em;
     min-height: 100vh;
-    a {
-    }
     h2 {
         color: #159957;
         font-weight: normal;
@@ -22,8 +20,13 @@
     }
 }
 
+.topnav {
+    display: none;
+}
+
 .main-content {
     padding: 2rem;
+    width: 64rem;
 }
 
 #toc {
@@ -48,8 +51,25 @@
     } 
 }
 
+#nav-wrapper {
+    margin-top: 2em;
+    display: flex;
+
+    .return-home {
+        flex-grow: 1;
+    }
+
+    a {
+        margin: 0 1em;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .sidenav {
         display: none;
+    }
+    .topnav {
+        display: inherit;
+        margin-bottom: -20px;
     }
 }
