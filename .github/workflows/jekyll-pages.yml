@@ -23,7 +23,7 @@ jobs:
           bundler-cache: true
 
       - name: Build website
-        run: bundle exec jekyll build --base_url "${{ steps.deployment.outputs.page_url }}"
+        run: bundle exec jekyll build --baseurl "${{ steps.deployment.outputs.page_url }}"
 
       - name: Upload pages artifacts
         id: deployment
