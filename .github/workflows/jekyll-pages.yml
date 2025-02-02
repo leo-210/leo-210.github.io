@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,13 +23,13 @@ jobs:
           bundler-cache: true
 
       - name: Build website
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --base_url "${{ steps.deployment.outputs.page_url }}"
 
       - name: Upload pages artifacts
         id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site/
+          path: ./_site
 
   deploy:
     environment:
