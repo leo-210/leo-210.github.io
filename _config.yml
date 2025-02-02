@@ -18,6 +18,10 @@ exclude:
 - gemset.nix
 - shell.nix
 remote_theme: pages-themes/cayman@v0.2.0
+
 plugins:
 - jekyll-remote-theme
 - jekyll-seo-tag
+- jekyll-default-layout
+- jekyll-optional-front-matter
+- jekyll-title-from-headings
