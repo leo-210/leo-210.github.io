@@ -20,8 +20,8 @@
     }
 }
 
-hr {
-    border-top: solid 1px #eff0f1;
+.main-content hr {
+    height: 1px;
 }
 
 .topnav {
