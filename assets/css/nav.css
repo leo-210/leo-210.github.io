@@ -22,6 +22,10 @@
     }
 }
 
+.main-content {
+    padding: 2rem;
+}
+
 #toc {
     margin-top: 2px;
     a {
