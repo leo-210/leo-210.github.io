@@ -1,6 +1,5 @@
 # Ruby stuff
 .bundle/
-Gemfile*
 vendor/
 
 # Nix & Ruby stuff
