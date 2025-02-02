@@ -19,9 +19,19 @@ exclude:
 - shell.nix
 remote_theme: pages-themes/cayman@v0.2.0
 
+toc:
+  max_level: 2
+
+defaults:
+  - scope:
+      path: ""
+    values: 
+      toc: true
+
 plugins:
 - jekyll-remote-theme
 - jekyll-seo-tag
 - jekyll-default-layout
 - jekyll-optional-front-matter
 - jekyll-title-from-headings
+- jekyll-toc

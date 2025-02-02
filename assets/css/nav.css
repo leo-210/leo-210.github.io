@@ -1,0 +1,49 @@
+#wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.place-holder {
+    flex-grow: 1;
+}
+
+.sidenav {
+    margin: 2rem;
+    width: 20em;
+    min-width: 15em;
+    min-height: 100vh;
+    h2 {
+        color: #159957;
+        font-weight: normal;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+
+#toc {
+    margin-top: 2px;
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    list-style: none;
+    padding: 0;
+    .toc-h1 {
+        padding: 5px 0;
+    }
+    .toc-h2 {
+        font-size: 0.90em;
+        font-weight: normal;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0 0 0 20px;
+    } 
+}
+
+@media screen and (max-width: 1000px) {
+    .sidenav {
+        display: none;
+    }
+}

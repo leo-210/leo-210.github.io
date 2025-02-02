@@ -27,7 +27,7 @@ Vous pouvez trouver la liste de tous les posts ci-dessous.
 
 * * *
 
-### *{{post.date | date: "%d/%m/%y"}}* --- **[{{ post.title }}]({{ post.url }})**
+### {{post.date | date: "%d/%m/%y"}} --- **[{{ post.title }}]({{ post.url }})**
 {{ post.description | truncate: 96}}
 
 
