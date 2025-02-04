@@ -1,6 +1,6 @@
 ---
-title: Avancée TIPE
 layout: default
+title: ""
 ---
 
 # Un projet pris très au sérieux
