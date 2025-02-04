@@ -5,8 +5,8 @@ title: ""
 
 # Un projet pris très au sérieux
 
-Ici, ça rigole pas. On est (plutôt "je" en fait maintenant que j'y pense, bref)
-là pour faire un joli truc bien cool et tout ça tout ça. 
+Ici, ça rigole pas. On est en prépa, donc ça demande rigueur, et je compte bien
+faire un truc joli et bien cool et tout ça tout ça. 
 
 Ouais je sais pas vraiment quoi écrire, mais faut bien meubler pour que le site
 ressemble à quelque chose.
