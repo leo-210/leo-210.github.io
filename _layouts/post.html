@@ -40,7 +40,7 @@
       <nav class="topnav return-home">
           <a href="/">← Retour à l'accueil</a>
       </nav>  
-      {{ content | inject_anchors }}
+      {{ content | inject_anchors | microtypo: page.locale}}
       
       <div id="nav-wrapper">
         <nav class="return-home">

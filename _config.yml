@@ -35,3 +35,4 @@ plugins:
 - jekyll-optional-front-matter
 - jekyll-title-from-headings
 - jekyll-toc
+- jekyll-microtypo

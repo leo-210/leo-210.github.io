@@ -41,6 +41,8 @@ GEM
       webrick (~> 1.7)
     jekyll-default-layout (0.1.5)
       jekyll (>= 3.0, < 5.0)
+    jekyll-microtypo (2.0.0)
+      jekyll (>= 3.0, < 5.0)
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-remote-theme (0.4.3)
@@ -99,6 +101,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-default-layout
+  jekyll-microtypo
   jekyll-optional-front-matter
   jekyll-remote-theme
   jekyll-seo-tag

@@ -9,4 +9,5 @@ group :jekyll_plugins do
   gem "jekyll-optional-front-matter"
   gem "jekyll-titles-from-headings"
   gem "jekyll-toc"
+  gem "jekyll-microtypo"
 end

@@ -27,7 +27,7 @@
 
     <div id="wrapper">
     <main id="content" class="main-content" role="main">
-      {{ content }}
+      {{ content | microtypo: page.locale }}
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
