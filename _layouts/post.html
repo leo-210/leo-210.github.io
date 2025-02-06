@@ -47,15 +47,15 @@
           <a href="/">← Retour à l'accueil</a>
         </nav>
 
-        {% if page.previous.url %}
+        {% if page.next.url %}
         <nav class="previous-page">
-            <a href="{{ page.previous.url }}">← Précédent</a>
+            <a href="{{ page.next.url }}">← Précédent</a>
         </nav>
         {% endif %}
 
-        {% if page.next.url %}
+        {% if page.previous.url %}
         <nav class="next-page">
-            <a href="{{ page.next.url }}">Suivant →</a>
+            <a href="{{ page.previous.url }}">Suivant →</a>
         </nav>
         {% endif %}
 
