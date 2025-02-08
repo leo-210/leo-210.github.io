@@ -10,4 +10,5 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jekyll-toc"
   gem "jekyll-microtypo"
+  gem "jekyll-scholar"
 end

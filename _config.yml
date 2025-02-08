@@ -20,13 +20,17 @@ exclude:
 remote_theme: pages-themes/cayman@v0.2.0
 
 toc:
-  max_level: 2
+  max_level: 3
 
 defaults:
   - scope:
       path: ""
     values: 
       toc: true
+
+scholar:
+  style: apa
+  locale: fr
 
 plugins:
 - jekyll-remote-theme
@@ -36,3 +40,4 @@ plugins:
 - jekyll-title-from-headings
 - jekyll-toc
 - jekyll-microtypo
+- jekyll-scholar
