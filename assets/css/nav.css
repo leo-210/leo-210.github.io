@@ -50,6 +50,8 @@
     }
 
     ul {
+        margin: 3px 0;
+        border-left: solid 2px #eff0f1;
         list-style: none;
         padding: 0 0 0 20px;
     } 
