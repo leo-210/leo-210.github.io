@@ -121,8 +121,9 @@ vers $$a$$, alors le graphe devient fortement connexe.
 
 #### Exemple
 
-[Insérer un exemple]
+[Insérer un exemple][^exemple]
 
+[^exemple]: Probablement jamais...
 
 ## Matrice d'incidence
 
@@ -132,7 +133,7 @@ d'incidence sommets-arcs $$A(G)$$, dont le coefficient $$i, j$$ est égal à :
 - 1 si l'arc $$x_j$$ entre dans le sommet $$v_i$$
 - 0 sinon
 
-[Insérer un exemple]
+[Insérer un exemple][^exemple]
 
 
 # Lois de Kirchhof
@@ -178,7 +179,7 @@ Par conséquent, en utilisant le résultat du dessus, on sait que toutes les
 lignes de $$B$$ sont linéairement indépendantes, sauf une que l'on peut choisir
 arbitrairement. On a ainsi nos $$n-1$$ lois des nœuds à partir du graphe.
 
-[insérer un exemple]
+[insérer un exemple][^exemple]
 
 
 ## Loi des mailles
@@ -230,7 +231,7 @@ vecteur des potentiels dans chaque branche du circuit représenté par $$G$$, al
 les lignes de la relation $$CU = 0$$ nous donnent exactement $$p-n+1$$ lois des
 mailles indépendantes.
 
-[insérer un exemple]
+[insérer un exemple][^exemple]
 
 
 # Comptons nos équations !
