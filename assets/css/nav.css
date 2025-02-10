@@ -57,6 +57,21 @@
     } 
 }
 
+blockquote.proof,
+blockquote.remark,
+blockquote.note {
+    color: #606c71;
+    border-color: #159957;
+    background: #15995715;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    strong {
+        color: #159957;
+        font-weight: normal;
+    }
+}
+
 #nav-wrapper {
     margin-top: 2em;
     display: flex;
