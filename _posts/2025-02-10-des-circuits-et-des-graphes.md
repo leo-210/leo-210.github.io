@@ -261,9 +261,14 @@ chaque dipôle appartient à une branche différente, et son équation met en je
 des variables différentes que tous les autres dipôles.
 
 De plus, les équations des dipôles sont linéairement indépendantes des lois de
-Kirchhof, car ces lois mettent en jeu au moins deux inconnues de même << nature >>
+Kirchhof, car ces lois mettent en jeu au moins deux[^deux] inconnues de même << nature >>
 (intensités ou courants), alors que les équations des dipôles possèdent au plus
 une inconnue de même << nature >>. 
+
+[^deux]: Pour une loi des mailles, un cycle nécessite au moins deux arêtes donc
+    deux potentiels. Pour la lois des nœuds, par la 3e condition toute arête
+    appartient à un cycle, donc tout nœud est connecté à au moins deux arêtes,
+    donc deux intensités.
 
 On a donc $$p$$ équations en plus, pour un total de $$2p$$, ce qui est bien égal
 au nombre d'inconnues, youpi !
