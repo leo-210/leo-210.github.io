@@ -20,6 +20,10 @@
     }
 }
 
+.footnote {
+    font-weight: bold;
+}
+
 .main-content hr {
     height: 1px;
 }
