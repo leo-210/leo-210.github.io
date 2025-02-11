@@ -69,6 +69,7 @@ blockquote.note {
     background: #15995715;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-right: 0;
 
     strong {
         color: #159957;
