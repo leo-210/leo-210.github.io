@@ -2,14 +2,15 @@ lsi: false
 safe: true
 source: .
 incremental: false
-highlighter: blue
 future: true
+highlight: rouge
 gist:
   noscript: false
 markdown: kramdown
 kramdown:
+  syntax_highlighter: rouge
+  input: GFM
   math_engine: mathjax
-  syntax_highlighter: blue
 title: Avancement TIPE
 show_dir_listing: false
 description: Un site pour suivre mes avancées sur le TIPE 2025-26.

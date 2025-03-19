@@ -145,6 +145,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-titles-from-headings
   jekyll-toc
+  rouge
 
 BUNDLED WITH
    2.5.22

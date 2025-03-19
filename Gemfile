@@ -11,4 +11,5 @@ group :jekyll_plugins do
   gem "jekyll-toc"
   gem "jekyll-microtypo"
   gem "jekyll-scholar"
+  gem "rouge"
 end
