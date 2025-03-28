@@ -1,0 +1,76 @@
+\documentclass{beamer}
+
+\title{Présentation TIPE}
+\subtitle{Trouver l'équation différentielle d'un circuit électronique
+algorithmiquement.}
+\author{Léo Kosman}
+\institute{MP2I \textemdash{} Lycée Thiers}
+\date{}
+
+\begin{document}
+    \begin{frame}
+        \titlepage
+    \end{frame}
+
+    \begin{frame}
+        \frametitle {Idée générale}
+
+        On considère les circuits électroniques composés de dipôles (résistors,
+        compdensateurs, bobines et générateurs idéaux de tension et
+        d'intensité). 
+        \vspace{10}
+        \pause
+        On veut créer un algorithme qui peut trouver une équation différentielle
+        vérifiée par une grandeur du circuit. Et si l'on peut choisir la
+        grandeur arbitrairement, c'est encore mieux !
+        \vspace{10}
+        
+        \pause
+        Note : on veut trouver l'équation différentielle littéralement, et pas
+        résoudre le circuit numériquement.
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{Quelques résultats obtenus}
+
+        On peut résoudre certains circuit (assez simples) avec la méthode dite
+        de "proche en proche". Cela consiste à faire des substitutions répétées.
+        \vspace{4}
+    
+        \pause
+        L'algorithme termine et est correct à condition de toujours trouver une
+        substitution à chaque étape.
+        
+        
+        \pause
+        Ses avantages : il permet de choisir la grandeur qu'on veut, et est
+        relativement efficace ($O(n^2)$ a priori, si bien implémenté)
+        \vspace{4}
+
+        \pause
+        J'ai une implémentation en OCaml, mais elle n'est pas très performante,
+        car je n'ai pas spécialement réfléchi à des structures de données plus
+        adaptées dans certains cas.
+        \vspace{4}
+
+    \end{frame}
+    
+    \begin{frame}
+        \frametitle{Pistes de recherche et objectifs}
+
+        \begin{itemize}
+            \item Implémenter les associations en série/parallèle des circuits
+                pour trouver une équation différentielle
+            \pause
+            \item Faire une variante du proche en proche sans choix de la
+                grandeur, mais qui permettrait de garantir une équation
+                différentielle ?
+            \pause
+            \item Essayer de trouver un algorithme utilisant le théorème de 
+                Millman
+            \pause
+            \item Optimiser l'implémentation du proche en proche en choisissant
+                des structures de données plus adaptées.
+        \end{itemize}
+    \end{frame}
+\end{document}
